@@ -1,10 +1,17 @@
+.wrapper {
+   display: flex;
+    flex-direction: column;
+    background-color: steelblue;
+    padding: 0 40px 60px;
+    width: 40%; 
+}
+
 .formWrapper {
     display: flex;
     flex-direction: column;
     background-color: steelblue;
-    padding: 0 40px;
-    width: 30%;
-    text-align: center;
+    padding: 0 20px;
+    width: fit-content;
 }
 
 .formTitle {
@@ -12,5 +19,45 @@
     font-weight: 600;
     margin-bottom: 10px;
     color: white;
+    text-shadow: black 1px 1px;
+}
+
+.homeNav {
+    display: flex;
+    gap: 10px;
+}
+
+.homeLink {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: white;
+    /* text-shadow: black 1px 1px; */
+    text-decoration: none;
+}
+
+.homeLink:hover {
+    text-shadow: black 1px 1px;
+}
+
+.homeLink:focus {
+    text-shadow: black 1px 1px;
+}
+
+.homeBtn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.homeBtn:hover {
+    text-shadow: black 1px 1px;
+}
+
+.homeBtn:focus {
     text-shadow: black 1px 1px;
 }
