@@ -43,7 +43,6 @@ const ContactForm = () => {
 
     const action = addContact(newContact);
     dispatch(action);
-
     setName('');
     setNumber('');
   };
